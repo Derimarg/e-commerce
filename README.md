@@ -10,7 +10,7 @@
 
 <br />
 <p align="center">
-<h1 align="center" id="e-commerce" size="ex-big">E-Commerce 🗃</h1>
+<h1 align="center" id="e-commerce">E-Commerce 🗃</h1>
 
 <p align="center">
 As a manager at an internet retail company, I want a back end for my e-commerce website that<br /> uses the latest technologies, so my company can compete with other e-commerce companies.
@@ -27,8 +27,6 @@ As a manager at an internet retail company, I want a back end for my e-commerce 
 </p>
 <br />
 <br />
-
-
 
 <details open="open">
 <summary>Table of Contents</summary>
@@ -47,7 +45,6 @@ As a manager at an internet retail company, I want a back end for my e-commerce 
 </ul>
 </details>
 
-
 ---
   
 ## Description
@@ -58,7 +55,6 @@ GIVEN a functional `Express.js API`
 - Entering the command to invoke the application, server will be started and the Sequelize models are synced to the MySQL database.
 - Opening the `API GET routes in Insomnia Core` for categories, products, or tags, the data for each of these routes is displayed in a formatted JSON.
 - Testing `API POST, PUT, and DELETE routes in Insomnia Core`, successfully will be able to create, update, and delete data in my database.
-
 
 ### Example:
 
@@ -149,10 +145,9 @@ DB_PW='your_MySQL_password'
 
 ---
 
+## Usage
 
-  ## Usage
-
-  This is a open source program, feel free to use it, contact me to request features.    
+This is a open source program, feel free to use it, contact me to request features.    
 
 <!-- ROADMAP -->
 ## Roadmap
