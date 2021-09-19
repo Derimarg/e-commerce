@@ -1,5 +1,5 @@
 {
-  "name": "e-commerce-back-end",
+  "name": "e-commerce",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
@@ -11,18 +11,21 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Derimarg/e-commerce-back-end.git"
+    "url": "git+https://github.com/Derimarg/e-commerce.git"
   },
   "author": "Derimar Gray",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Derimarg/e-commerce-back-end/issues"
+    "url": "https://github.com/Derimarg/e-commerce/issues"
   },
-  "homepage": "https://github.com/Derimarg/e-commerce-back-end#readme",
+  "homepage": "https://github.com/Derimarg/e-commerce#readme",
   "dependencies": {
     "dotenv": "^10.0.0",
     "express": "^4.17.1",
     "mysql2": "^2.3.0",
     "sequelize": "^6.6.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
   }
 }
