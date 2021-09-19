@@ -1,3 +1,8 @@
+<style>
+.emoji { font-size: 150%; }
+.title { font-size: 30px}
+</style>
+
 ![Repo Size][repo-size]
 ![Language][GitHub-language]
 [![Contributors][contributors-shield]][contributors-url]
@@ -10,9 +15,7 @@
 <br />
 <p align="center">
 
-
-
-<h3 align="center" id="e-commerce">E-Commerce</h3>
+<h3 align="center" id="e-commerce" class="title">E-Commerce <span class="emoji">🗃</span></h3>
 
 <p align="center">
 As a manager at an internet retail company, I want a back end for my e-commerce website that<br /> uses the latest technologies, so my company can compete with other e-commerce companies.
@@ -66,7 +69,6 @@ GIVEN a functional `Express.js API`
 ### Example:
   
   ![Demo](./assets/images/demo.gif)
-
 
 ## Technologies
 
