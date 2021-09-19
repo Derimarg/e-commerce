@@ -1,7 +1,3 @@
-<style>
-.emoji { font-size: 150%; }
-.title { font-size: 30px}
-</style>
 
 ![Repo Size][repo-size]
 ![Language][GitHub-language]
@@ -11,6 +7,11 @@
 [![Issues][issues-shield]][issues-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 ![MIT License][license-shield]
+
+<style>
+.emoji { font-size: 150%; }
+.title { font-size: 30px}
+</style>
 
 <br />
 <p align="center">
@@ -23,7 +24,7 @@ As a manager at an internet retail company, I want a back end for my e-commerce 
 <a href="#description"><strong>Explore the docs »</strong></a>
 <br />
 <br />
-<a href="#example">View Demo</a>
+<a href="https://drive.google.com/file/d/1w7MUwn_04KkbVfFoPnK2XDOgXQhl0H1q/view?usp=sharing">View Demo</a>
 .
 <a href="https://github.com/Derimarg/e-commerce/issues">Report Bug</a>
 ·
@@ -43,7 +44,6 @@ As a manager at an internet retail company, I want a back end for my e-commerce 
 <li><a href="#how-to-download">Download</a></li>
 <li><a href="#installation">Installation</a></li>
 <li><a href="#prerequisites">Prerequisites</a></li>
-<li><a href="#test">Test</a></li>
 <li><a href="#usage">Usage</a></li>
 <li><a href="#roadmap">Roadmap</a></li>
 <li><a href="#contributing">Contributing</a></li>
@@ -67,8 +67,22 @@ GIVEN a functional `Express.js API`
 
 
 ### Example:
-  
-  ![Demo](./assets/images/demo.gif)
+
+  Design of database schema as shown in the following image:
+<br />
+<br />
+<p><h2>- Database Connection and Seeds</h2><br /><img src="./assets/images/sql.gif" alt="Database connection" width="auto" height="auto"></p>
+<br />
+<br />
+<p><h2>- Product Routes</h2><br /><img src="./assets/images/products.gif" alt="Product routes" width="auto" height="auto"></p>
+<br />
+<br />
+<p><h2>- Category Routes</h2><br /><img src="./assets/images/categories.gif" alt="Category routes" width="auto" height="auto"></p>
+<br />
+<br />
+<p><h2>- Tag Routes</h2><br /><img src="./assets/images/tags.gif" alt="Tag routes" width="auto" height="auto"></p>
+<br />
+<br />
 
 ## Technologies
 
@@ -109,21 +123,35 @@ GIVEN a functional `Express.js API`
 
 ## Prerequisites
 
-Before of using this application, is require to install dependencies, run the following command in your terminal:
+1.- Before of using this application, is require to install dependencies, run the following command in your terminal:
 
   ```
   npm i
   ```
 
-## Test
+2.- At the root of the project, create a file `.env`, and insert your MySQL info:
 
-To run tests, run these commands:
+```
+DB_NAME='ecommerce_db''
+DB_USER='your_MySQL_username'
+DB_PW='your_MySQL_password'
+```
 
-  ```
-  npm test
-  ```
+3.- At the root of your project, open your terminal and run the following commands:
 
-[Back To Top](#e-commerce)
+    1.- mysql -u root -p
+
+    2.- Enter your MySQL password
+
+    3.- source db/schema.sql
+
+    4.- quit
+
+    5.- npm run seed
+    
+    6.- npm start
+
+[Back To Demo](#example)
 
 ---
 
@@ -161,7 +189,7 @@ For additional help or questions about collaboration, contact me at: derimargray
 - GitHub - [Derimarg](https://github.com/Derimarg/)
 - Linkedin - [Derimar Gray](https://www.linkedin.com/in/derimar-gray-676275132/)
 - Project Repository Link: https://github.com/Derimarg/e-commerce
-- walkthrough video:
+- walkthrough video: https://drive.google.com/file/d/1w7MUwn_04KkbVfFoPnK2XDOgXQhl0H1q/view?usp=sharing
 
 [Back To Top](#e-commerce)
 
