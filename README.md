@@ -8,15 +8,9 @@
 [![LinkedIn][linkedin-shield]][linkedin-url]
 ![MIT License][license-shield]
 
-<style>
-.emoji { font-size: 150%; }
-.title { font-size: 30px}
-</style>
-
 <br />
 <p align="center">
-
-<h3 align="center" id="e-commerce" class="title">E-Commerce <span class="emoji">🗃</span></h3>
+<h1 align="center" id="e-commerce" size="ex-big">E-Commerce 🗃</h1>
 
 <p align="center">
 As a manager at an internet retail company, I want a back end for my e-commerce website that<br /> uses the latest technologies, so my company can compete with other e-commerce companies.
@@ -71,16 +65,16 @@ GIVEN a functional `Express.js API`
   Design of database schema as shown in the following image:
 <br />
 <br />
-<p><h2>- Database Connection and Seeds</h2><br /><img src="./assets/images/sql.gif" alt="Database connection" width="auto" height="auto"></p>
+<p><h3>- Database Connection and Seeds</h3><br /><img src="./assets/images/sql.gif" alt="Database connection" width="auto" height="auto"></p>
 <br />
 <br />
-<p><h2>- Product Routes</h2><br /><img src="./assets/images/products.gif" alt="Product routes" width="auto" height="auto"></p>
+<p><h3>- Product Routes</h3><br /><img src="./assets/images/products.gif" alt="Product routes" width="auto" height="auto"></p>
 <br />
 <br />
-<p><h2>- Category Routes</h2><br /><img src="./assets/images/categories.gif" alt="Category routes" width="auto" height="auto"></p>
+<p><h3>- Category Routes</h3><br /><img src="./assets/images/categories.gif" alt="Category routes" width="auto" height="auto"></p>
 <br />
 <br />
-<p><h2>- Tag Routes</h2><br /><img src="./assets/images/tags.gif" alt="Tag routes" width="auto" height="auto"></p>
+<p><h3>- Tag Routes</h3><br /><img src="./assets/images/tags.gif" alt="Tag routes" width="auto" height="auto"></p>
 <br />
 <br />
 
