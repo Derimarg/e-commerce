@@ -74,7 +74,6 @@ router.post("/", (req, res) => {
     product_name: req.body.product_name,
     price: req.body.price,
     stock: req.body.stock,
-    category_id: req.body.category_id,
     tagIds: req.body.tagIds,
   })
     .then((product) => {
@@ -142,10 +141,14 @@ router.put("/:id", (req, res) => {
 
 router.delete("/:id", (req, res) => {
   // delete one product by its `id` value
-  Product.destroy({ where: { id: req.params.id } })
+  Product.destroy({
+    where: {
+      id: req.params.id,
+    },
+  })
     .then((dbProductData) => {
       if (!dbProductData) {
-        res.status(404).json({ message: "No product found with this id" });
+        rs.status(404).json({ message: "No product found with this id" });
         return;
       }
       res.json(dbProductData);
