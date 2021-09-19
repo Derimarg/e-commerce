@@ -6,7 +6,7 @@ const { Tag, Product, ProductTag } = require("../../models");
 router.get("/", (req, res) => {
   // find all tags
   // be sure to include its associated Product data
-  Tag.findOrBuild({
+  Tag.findAll({
     include: {
       model: Product,
       attributes: ["product_name", "price", "stock", "category_id"],
@@ -31,7 +31,7 @@ router.get("/:id", (req, res) => {
       attributes: ["product_name", "price", "stock", "category_id"],
     },
   })
-    .then((dbTagData = res.json(dbTagData)))
+    .then((dbTagData) => res.json(dbTagData))
     .catch((err) => {
       console.log(err);
       res.status(500).json(err);
@@ -80,6 +80,7 @@ router.delete("/:id", (req, res) => {
         res.status(404).json({ message: "No tag found with this id" });
         return;
       }
+      res.json(dbTagData);
     })
     .catch((err) => {
       console.log(err);
